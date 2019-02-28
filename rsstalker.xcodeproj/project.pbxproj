@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B835BA32228058D002A46E8 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B835BA22228058D002A46E8 /* String+Extension.swift */; };
 		7BF98CCA221D565600A4D214 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF98CC9221D565600A4D214 /* main.swift */; };
+		7BF98CD1221D56B700A4D214 /* Stalker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF98CD0221D56B700A4D214 /* Stalker.swift */; };
+		7BF98CD3221D61F400A4D214 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF98CD2221D61F400A4D214 /* User.swift */; };
+		7BF98CD5221D71ED00A4D214 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF98CD4221D71ED00A4D214 /* LogManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B835BA22228058D002A46E8 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		7BF98CC6221D565600A4D214 /* rsstalker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rsstalker; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF98CC9221D565600A4D214 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7BF98CD0221D56B700A4D214 /* Stalker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stalker.swift; sourceTree = "<group>"; };
+		7BF98CD2221D61F400A4D214 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7BF98CD4221D71ED00A4D214 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				7BF98CC9221D565600A4D214 /* main.swift */,
+				7BF98CD0221D56B700A4D214 /* Stalker.swift */,
+				7BF98CD2221D61F400A4D214 /* User.swift */,
+				7BF98CD4221D71ED00A4D214 /* LogManager.swift */,
+				7B835BA22228058D002A46E8 /* String+Extension.swift */,
 			);
 			path = rsstalker;
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF98CD5221D71ED00A4D214 /* LogManager.swift in Sources */,
+				7BF98CD1221D56B700A4D214 /* Stalker.swift in Sources */,
 				7BF98CCA221D565600A4D214 /* main.swift in Sources */,
+				7B835BA32228058D002A46E8 /* String+Extension.swift in Sources */,
+				7BF98CD3221D61F400A4D214 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
